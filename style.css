@@ -1,0 +1,25 @@
+*{
+    margin: 0; /* Define a margem do elemento */
+    padding: 0; /* Define o preenchimento de um elemento */
+}
+
+nav{
+    display: flex; /* Define a forma de exibição do elemento */
+    background-color: #e98251; /* Define a cor de fundo do elemeto */
+    height: 60px; /* Define a altura do elemento */
+    justify-content: space-evenly; /* Alinha os itens pela horizontal */
+    align-items: center; /* Alinha os itens pela vertical */
+}
+
+nav a{
+    color: white; /* Define a cor do elemento (apenas com tags referente a texto) */
+    font-family: 'Bahianita', cursive;
+    font-size: 23px;
+    text-decoration: none; /* Remove a decoração do text (sublinhados, etc) */
+}
+
+header{
+    background-image: url(images/narutao.jpg);
+    background-size: cover;
+    height: 500px;
+}
