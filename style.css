@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0; /* Define a margem do elemento */
     padding: 0; /* Define o preenchimento de um elemento */
 }
@@ -18,8 +18,32 @@ nav a{
     text-decoration: none; /* Remove a decoração do text (sublinhados, etc) */
 }
 
+nav a:hover{
+    font-size: 49px;
+    color: blue;
+}
+
 header{
     background-image: url(images/narutao.jpg);
     background-size: cover;
     height: 500px;
+}
+
+section{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section div{
+    width: 40%;
+    text-align: center;
+}
+
+div ul{
+    list-style-image: url(images/kunai.png);
+}
+
+ul li:nth-child(odd){
+    color:white;
 }
