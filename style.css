@@ -47,3 +47,33 @@ div ul{
 ul li:nth-child(odd){
     color:white;
 }
+
+footer{
+    align-items: center;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: center;
+}
+
+footer input{
+    height: 25px;
+    border-color: darkslateblue;
+}
+
+footer button{
+    height: 30px;
+    border-color: darkslateblue;
+}
+
+footer div:nth-child(1){
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
